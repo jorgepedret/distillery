@@ -10,14 +10,5 @@
       "methods": ["post"],
       "paths": [ "users/search" ]
     }
-  },
-  "instagram2": {
-    "url": "insta",
-    "remoteUrl": "https://api.instagram.com/v1/",
-    "auth": {
-      "method": "get",
-      "key": "client_id",
-      "value": "cfxxxxxxxxxxxxxxxxxxxxxxxxxxxx13"
-    }
   }
 }
