@@ -4,7 +4,7 @@
     "auth": {
       "method": "get",
       "key": "client_id",
-      "value": "cfcb6840432b44999fb8c5614d9f4813"
+      "value": "cfxxxxxxxxxxxxxxxxxxxxxxxxxxxx13"
     },
     "deny": {
       "methods": ["post"],
@@ -17,7 +17,7 @@
     "auth": {
       "method": "get",
       "key": "client_id",
-      "value": "cfcb6840432b44999fb8c5614d9f4813"
+      "value": "cfxxxxxxxxxxxxxxxxxxxxxxxxxxxx13"
     }
   }
 }
