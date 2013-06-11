@@ -1,0 +1,23 @@
+{
+  "instagram": {
+    "remoteUrl": "https://api.instagram.com/v1/",
+    "auth": {
+      "method": "get",
+      "key": "client_id",
+      "value": "cfcb6840432b44999fb8c5614d9f4813"
+    },
+    "deny": {
+      "methods": ["post"],
+      "paths": [ "users/search" ]
+    }
+  },
+  "instagram2": {
+    "url": "insta",
+    "remoteUrl": "https://api.instagram.com/v1/",
+    "auth": {
+      "method": "get",
+      "key": "client_id",
+      "value": "cfcb6840432b44999fb8c5614d9f4813"
+    }
+  }
+}
