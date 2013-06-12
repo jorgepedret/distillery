@@ -84,6 +84,8 @@ $ curl "http://localhost:3000/instagram/users/search?q=jorge"
 - Support standard (and popular APIs) ways of authenticating
 - Improve the way deny/allow works
 - Switch to a lighter HTTP server (replace express)
+- Expose an endpoint to reset auth key
+- Solution for cross-domain issues
 
 ## License
 MIT
