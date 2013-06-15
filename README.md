@@ -80,7 +80,6 @@ $ curl "http://localhost:3000/instagram/users/search?q=jorge"
 ```
 
 ## TODO
-- Add distillery to NPM list
 - Support standard (and popular APIs) ways of authenticating
 - Improve the way deny/allow works
 - Switch to a lighter HTTP server (replace express)

@@ -1,7 +1,12 @@
 {
   "name": "distillery",
-  "description": "Talk to a remote API without needing to expose your secret token or all the endpoints",
   "version": "0.1.0",
+  "description": "Talk to a remote API without needing to expose your secret token or all the endpoints",
+  "author": "Jorge Pedret <jorgepedret@gmail.com>",
+  "contributors": [
+    { "name": "Brock Whitten", "email": "brock@chloi.io" },
+    { "name": "Rob Ellis", "email": "rob@chloi.io" }
+  ],
   "main": "./lib/distillery",
   "dependencies": {
     "request": "2.21.0",
@@ -14,5 +19,13 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha test/* -t 10s --reporter spec"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/jorgepedret/distillery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jorgepedret/distillery/issues"
+  },
+  "license": "MIT",
   "readmeFilename": "README.md"
 }
