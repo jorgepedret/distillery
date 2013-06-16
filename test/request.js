@@ -1,16 +1,16 @@
 var request   = require("request"),
     should    = require("should"),
     config    = require("./mock/config.json"),
-    proxyUrl  = "http://localhost:3000/instagram",
-    proxyUrl2 = "http://localhost:3000/insta",
+    proxyUrl  = "http://localhost:3102/api1",
+    proxyUrl2 = "http://localhost:3102/insta",
     helpers = require("./mock/helpers"),
     distillery;
 
 describe("request", function () {
   
   before(function (done) {
-    config.port = 3000;
-    distillery = require("../lib/distillery")(config);
+    config.port = 3102;
+    distillery = require("../lib/distillery")(config).init();
     helpers.setupAPIs(done);
   });
   

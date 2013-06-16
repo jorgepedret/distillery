@@ -1,5 +1,5 @@
 {
-  "instagram": {
+  "api1": {
     "remoteUrl": "http://localhost:3001/",
     "auth": {
       "method": "get",
@@ -20,7 +20,7 @@
       "value": "xyz123"
     }
   },
-  "binteo": {
+  "api2": {
     "remoteUrl": "http://localhost:3002/",
     "auth": {
       "method": "get",

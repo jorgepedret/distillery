@@ -1,16 +1,16 @@
 var request   = require("request"),
     should    = require("should"),
     config    = require("./mock/config.json"),
-    binteoUrl  = "http://localhost:9966/binteo",
-    instagUrl = "http://localhost:9966/instagram",
+    binteoUrl  = "http://localhost:3100/api2",
+    instagUrl = "http://localhost:3100/api1",
     helpers = require("./mock/helpers"),
     distillery;
 
 describe("auth", function () {
 
   before(function (done) {
-    config.port = 9966;
-    distillery = require("../lib/distillery")(config);
+    config.port = 3100;
+    distillery = require("../lib/distillery")(config).init();
     helpers.setupAPIs(done);
   });
   
