@@ -1,0 +1,24 @@
+{
+  "_id":"51aa48f4b9689955127f0d95",
+  "username":"felipe",
+  "password":"iEPX+SQWIR3p67lj/0zigSWTKHg=\r\n",
+  "status":"active",
+  "accountType":"Rookie",
+  "email":"jjjj@gmail.com",
+  "name":"felipe",
+  "location":"Anonymous",
+  "createDate":"1370114292914",
+  "points":0,
+  "subscribers":[{
+    "_id":"51bbc8dce4b010266b455f7b",
+    "entityType":"account"
+  }],
+  "subscriptions":[{
+    "_id":"51aa4769b9689955127f0d92",
+    "entityType":"topic"
+  },{
+    "_id":"51aa476bb9689955127f0d93",
+    "entityType":"topic"
+  }],
+  "level":"Basic"
+}

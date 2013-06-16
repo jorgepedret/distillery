@@ -2,23 +2,16 @@ var request   = require("request"),
     should    = require("should"),
     config    = require("./mock/config.json"),
     proxyUrl  = "http://localhost:3000/instagram",
-    proxyUrl2 = "http://localhost:3000/insta";
-
-describe("config", function () {
-  it("should throw error if invalid config", function (done) {
-    try {
-      var distillery = require("../lib/distillery")();
-    } catch (e) {
-      done();
-    }
-  });
-});
+    proxyUrl2 = "http://localhost:3000/insta",
+    helpers = require("./mock/helpers"),
+    distillery;
 
 describe("request", function () {
   
   before(function (done) {
-    var distillery = require("../lib/distillery")(config);
-    done();
+    config.port = 3000;
+    distillery = require("../lib/distillery")(config);
+    helpers.setupAPIs(done);
   });
   
   it("should create endpoints", function (done) {
@@ -77,5 +70,9 @@ describe("request", function () {
       res.statusCode.should.eql(404);
       done();
     });
+  });
+
+  after(function (done) {
+    helpers.teardownAPIs(done);
   });
 });

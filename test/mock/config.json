@@ -1,10 +1,10 @@
 {
   "instagram": {
-    "remoteUrl": "https://api.instagram.com/v1/",
+    "remoteUrl": "http://localhost:3001/",
     "auth": {
       "method": "get",
       "key": "client_id",
-      "value": "cfcb6840432b44999fb8c5614d9f4813"
+      "value": "xyz123"
     },
     "deny": {
       "methods": ["post"],
@@ -13,11 +13,19 @@
   },
   "instagram2": {
     "url": "insta",
-    "remoteUrl": "https://api.instagram.com/v1/",
+    "remoteUrl": "http://localhost:3001/",
     "auth": {
       "method": "get",
       "key": "client_id",
-      "value": "cfcb6840432b44999fb8c5614d9f4813"
+      "value": "xyz123"
+    }
+  },
+  "binteo": {
+    "remoteUrl": "http://localhost:3002/",
+    "auth": {
+      "method": "get",
+      "key": "key",
+      "value": "foobar"
     }
   }
 }
