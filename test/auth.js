@@ -1,10 +1,10 @@
-var request   = require("request"),
-    should    = require("should"),
-    config    = require("./mock/config.json"),
-    api2Url  = "http://localhost:3100/api2",
-    api1Url = "http://localhost:3100/api1",
-    helpers = require("./mock/helpers"),
-    Distillery = require("../lib/distillery"),
+var request     = require("request"),
+    should      = require("should"),
+    config      = require("./mock/config.json"),
+    api2Url     = "http://localhost:3100/api2",
+    api1Url     = "http://localhost:3100/api1",
+    helpers     = require("./mock/helpers"),
+    Distillery  = require("../lib/distillery"),
     distillery;
 
 describe("auth", function () {

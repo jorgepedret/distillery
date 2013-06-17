@@ -1,4 +1,7 @@
 {
+  "headers": {
+    "Access-Control-Allow-Origin": "http://example.com"
+  },
   "services": {
     "api1": {
       "remoteUrl": "http://localhost:3001/",
@@ -12,6 +15,9 @@
           "methods": ["post"],
           "paths": ["users/search"]
         }
+      },
+      "headers": {
+        "Access-Control-Allow-Origin": "http://s.codepen.io"
       }
     },
     "instagram2": {

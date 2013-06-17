@@ -1,14 +1,21 @@
 {
-  "instagram": {
-    "remoteUrl": "https://api.instagram.com/v1/",
-    "auth": {
-      "method": "get",
-      "key": "client_id",
-      "value": "cfxxxxxxxxxxxxxxxxxxxxxxxxxxxx13"
-    },
-    "deny": {
-      "methods": ["post"],
-      "paths": [ "users/search" ]
+  "services": {
+    "instagram": {
+      "remoteUrl": "https://api.instagram.com/v1/",
+      "auth": {
+        "method": "get",
+        "key": "client_id",
+        "value": "cfcb6840432b44999fb8c5614d9f4813"
+      },
+      "rules": {
+        "deny": {
+          "methods": ["post", "put"],
+          "paths": ["users/search"]
+        }
+      },
+      "headers": {
+        "Access-Control-Allow-Origin": "http://s.codepen.io"
+      }
     }
   }
 }
