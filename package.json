@@ -18,7 +18,7 @@
     "should": "1.2.2"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/* -t 10s --reporter spec"
+    "test": "./node_modules/.bin/mocha test/* --reporter spec"
   },
   "repository" : {
     "type" : "git",

@@ -1,31 +1,35 @@
 {
-  "api1": {
-    "remoteUrl": "http://localhost:3001/",
-    "auth": {
-      "method": "get",
-      "key": "client_id",
-      "value": "xyz123"
+  "services": {
+    "api1": {
+      "remoteUrl": "http://localhost:3001/",
+      "auth": {
+        "method": "get",
+        "key": "client_id",
+        "value": "xyz123"
+      },
+      "rules": {
+        "deny": {
+          "methods": ["post"],
+          "paths": ["users/search"]
+        }
+      }
     },
-    "deny": {
-      "methods": ["post"],
-      "paths": [ "users/search" ]
-    }
-  },
-  "instagram2": {
-    "url": "insta",
-    "remoteUrl": "http://localhost:3001/",
-    "auth": {
-      "method": "get",
-      "key": "client_id",
-      "value": "xyz123"
-    }
-  },
-  "api2": {
-    "remoteUrl": "http://localhost:3002/",
-    "auth": {
-      "method": "get",
-      "key": "key",
-      "value": "foobar"
+    "instagram2": {
+      "url": "insta",
+      "remoteUrl": "http://localhost:3001/",
+      "auth": {
+        "method": "get",
+        "key": "client_id",
+        "value": "xyz123"
+      }
+    },
+    "api2": {
+      "remoteUrl": "http://localhost:3002/",
+      "auth": {
+        "method": "get",
+        "key": "key",
+        "value": "foobar"
+      }
     }
   }
 }
