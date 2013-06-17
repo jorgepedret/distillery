@@ -1,6 +1,6 @@
 {
   "name": "distillery",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Talk to a remote API without needing to expose your secret token or all the endpoints",
   "author": "Jorge Pedret <jorgepedret@gmail.com>",
   "contributors": [
